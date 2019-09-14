@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/mikmart/uuid4.svg?branch=master)](https://travis-ci.org/mikmart/uuid4)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/mikmart/uuid4?branch=master&svg=true)](https://ci.appveyor.com/project/mikmart/uuid4)
 <!-- badges: end -->
 
 Fast generation of version 4 universally unique identifiers (UUID4s) as
@@ -26,21 +30,21 @@ Create a single UUID by calling `uuid()` without arguments:
 
 ``` r
 uuid4::uuid()
-#> [1] "48bd74b8-9f03-403d-993e-d46d82d88718"
+#> [1] "5172bb8c-e66e-42b5-8f12-c2f5ac1df296"
 ```
 
 Or specify the number of UUIDs you want to get a vector:
 
 ``` r
 uuid4::uuid(10)
-#>  [1] "877f51dc-a5c0-48e5-9495-96f32d3eb874"
-#>  [2] "37bcae86-6640-410c-a1e3-4a0188976f0d"
-#>  [3] "365eee56-43ba-4f99-8e64-747939404517"
-#>  [4] "74918ae2-7f6a-48b1-aa65-300f209624d5"
-#>  [5] "23c23bff-99cd-47b8-8872-d5b75e3735ce"
-#>  [6] "b49ffbc0-53a1-4554-b859-fda754fee1c6"
-#>  [7] "d714027c-aee2-4a69-8a27-8154a409d1c3"
-#>  [8] "7e4ec9c8-ebce-4f1d-9128-79732eb5ee08"
-#>  [9] "d9ba0978-8be2-4ed5-9deb-3ff9139f611b"
-#> [10] "5a06bba1-4eda-4f35-bf3b-6c1bb5a493c2"
+#>  [1] "bbebc403-f56d-4954-b219-0cc5e7992f58"
+#>  [2] "1a0fbe5c-458f-4967-981e-b4cfd9b78b9f"
+#>  [3] "62864ef7-049b-45ef-96b7-7fbb1e2c4bdf"
+#>  [4] "d6920bb7-ecff-4bb6-bfdc-6272037c1803"
+#>  [5] "64e938e5-0330-4cb3-aabd-824ea0f92dff"
+#>  [6] "7b540c61-0921-410c-b455-9dbd5f42cf0d"
+#>  [7] "2697037b-9aaa-438a-8ecd-70fc819d9f12"
+#>  [8] "3d003378-ffd9-4bb3-8ded-9202cf60b544"
+#>  [9] "a06c31db-05b0-4a74-8f6b-7e72d3d8eb1d"
+#> [10] "8edb36c2-4dbf-4fd8-9e98-660d95585f30"
 ```

@@ -7,3 +7,5 @@
 \.so$
 \.dll$
 ^src/cuuid/\.git$
+^\.travis\.yml$
+^appveyor\.yml$
