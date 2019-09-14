@@ -13,8 +13,18 @@ uuid(n = 1L)
 a character vector of length \code{n}
 }
 \description{
-Generate a character vector of UUID4s
+A UUID4 is a random 128-bit integer with 6 bits containing fixed version
+information. They are surfaced to R as a character vector containing the
+hexadecimal representation. UUIDs are generated with a PCG random number
+generator, separate from R's built-in RNGs, so \code{set.seed()} has no effect on
+\code{uuid()}.
+}
+\examples{
+library(uuid4)
+
+uuid() # a single UUID4
 }
 \seealso{
-\href{https://tools.ietf.org/html/rfc4122}{RFC 4122} for the specification
+\href{https://tools.ietf.org/html/rfc4122}{RFC 4122} for the
+specification. \url{http://www.pcg-random.org} for the RNG used.
 }
