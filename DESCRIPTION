@@ -1,13 +1,24 @@
 Package: uuid4
+Title: Generate Random UUID4 Strings
 Version: 0.0.0.9000
-Title: Generate UUID4s
-Description: Fast generation of version 4 universally unique identifiers (UUID4s) as specified in [RFC 4122](https://tools.ietf.org/html/rfc4122).
-Authors@R: person("Mikko", "Marttila", email = "mikmart@mikkomarttila.com", role = c("aut", "cre"))
+Authors@R: 
+    c(person(given = "Mikko",
+             family = "Marttila",
+             role = c("aut", "cre"),
+             email = "mikmart@mikkomarttila.com"),
+      person(given = "Melissa",
+             family = "O'Neill",
+             role = "aut",
+             comment = "PCG"))
+Description: Fast generation of random (i.e. version 4)
+    universally unique identifiers (UUID4s) as specified in RFC 4122.
+    Source of randomness is a PCG random number generator, separate from
+    R's built-in RNGs.
 License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
-ByteCompile: true
-RoxygenNote: 6.1.1
-Roxygen: list(markdown = TRUE)
 URL: https://github.com/mikmart/uuid4
 BugReports: https://github.com/mikmart/uuid4/issues
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
