@@ -1,7 +1,7 @@
 #define R_NO_REMAP
 #include <R.h>
 #include <Rinternals.h>
-#include "uuid/uuid.h"
+#include "cuuid/cuuid.h"
 
 SEXP uuid4(SEXP n_) {
     R_xlen_t n = INTEGER(n_)[0];
