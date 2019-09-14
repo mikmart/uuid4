@@ -6,4 +6,4 @@
 \.o$
 \.so$
 \.dll$
-^src/uuid/.git$
+^src/cuuid/\.git$
