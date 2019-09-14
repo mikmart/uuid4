@@ -9,3 +9,5 @@ LazyData: true
 ByteCompile: true
 RoxygenNote: 6.1.1
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/mikmart/uuid4
+BugReports: https://github.com/mikmart/uuid4/issues
