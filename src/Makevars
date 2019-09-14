@@ -1,2 +1,5 @@
 SOURCES = $(wildcard *.c cuuid/*.c)
 OBJECTS = $(SOURCES:.c=.o)
+
+PKG_CFLAGS = -Icuuid
+PKG_CXXFLAGS = -Icuuid
