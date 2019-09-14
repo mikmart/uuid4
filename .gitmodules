@@ -1,3 +1,0 @@
-[submodule "src/cuuid"]
-	path = src/cuuid
-	url = https://github.com/mikmart/cuuid
