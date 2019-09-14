@@ -4,12 +4,12 @@
 \name{uuid4-package}
 \alias{uuid4}
 \alias{uuid4-package}
-\title{uuid4: What the Package Does (One Line, Title Case)}
+\title{uuid4: Generate UUID4s}
 \description{
-What the package does (one paragraph).
+Fast generation of version 4 universally unique identifiers (UUID4s) as specified in [RFC 4122](https://tools.ietf.org/html/rfc4122).
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com}
+\strong{Maintainer}: Mikko Marttila \email{mikmart@mikkomarttila.com}
 
 }
 \keyword{internal}
