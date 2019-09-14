@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-Fast generation of version 4 universally unique identifiers (UUID4s) as specified in [RFC 4122](https://tools.ietf.org/html/rfc4122).
+Fast generation of version 4 universally unique identifiers (UUID4s) as specified in [RFC 4122](https://tools.ietf.org/html/rfc4122). **uuid4** does not use R's random number generators, and thus is not affected by `set.seed()`.
 
 ## Installation
 
