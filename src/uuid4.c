@@ -14,9 +14,3 @@ SEXP uuid4(SEXP n_) {
     UNPROTECT(1);
     return out;
 }
-
-#include <R_ext/Rdynload.h>
-
-void R_init_uuid4(DllInfo *info) {
-  R_RegisterCCallable("uuid4", "uuid4",  (DL_FUNC) &uuid4);
-}

@@ -4,5 +4,5 @@
 #' @seealso [RFC 4122](https://tools.ietf.org/html/rfc4122) for the specification
 #' @export
 uuid <- function(n = 1L) {
-  .Call("uuid4", as.integer(n))
+  .Call(C_uuid4, as.integer(n))
 }
