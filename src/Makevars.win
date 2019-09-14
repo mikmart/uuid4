@@ -1,0 +1,3 @@
+include Makevars
+
+OBJECTS = $(SOURCES:.c=.o)
