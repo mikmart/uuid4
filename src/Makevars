@@ -1,0 +1,2 @@
+SOURCES = $(wildcard *.c uuid/*.c)
+OBJECTS = $(SOURCES:.c=.o)
