@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# uuid4
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Fast generation of version 4 universally unique identifiers (UUID4s) as specified in [RFC 4122](https://tools.ietf.org/html/rfc4122).
+
+## Installation
+
+Install from GitHub with:
+
+``` r
+devtools::install_github("mikmart/uuid4")
+```
+
+## Example
+
+Create a single UUID by calling `uuid()` without arguments:
+
+```{r example-1}
+uuid4::uuid()
+```
+
+Or specify the number of UUIDs you want to get a vector:
+```{r example-2}
+uuid4::uuid(10)
+```
