@@ -8,7 +8,8 @@ SEXP uuid4(SEXP n_) {
     SEXP out = PROTECT(Rf_allocVector(STRSXP, n));
     for (R_xlen_t i = 0; i < n; i++) {
         uuid_t uuid = uuid4_generate();
-        const char * str = uuid_string(&uuid);
+        char str[UUID_STRLEN];
+        uuid_string(&uuid, str);
         SET_STRING_ELT(out, i, Rf_mkChar(str));
     }
     UNPROTECT(1);
